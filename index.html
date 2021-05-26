@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Sport</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Roboto&display=swap" rel="stylesheet"></head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" class="item-navigation">Accueil</a></li>
+                <li><a href="#" class="item-navigation">Matériel</a></li>
+                <li><a href="#" class="item-navigation">Tarifs</a></li>
+                <li><a href="#" class="item-navigation">Contact</a></li>
+            </ul>
+        </nav>    
+    </header>
+
+    <main>
+        <!-- Accueil -->
+        <section id="home">
+            <div class="home"> <!-- 'Accueil' / 'home' -->
+                <div class="home__left-bloc"> <!-- 'bloc-gauche-acceuil' -->
+                    
+                    <h1>GYM YONOS</h1>
+                    
+                    <p>Dépassez vos limites.</p>
+                    <p>Entrainez-vous.</p>
+                    <p>Progressez.</p>
+                    
+                    <div class="home__left-bloc__btn-container"> <!-- 'cont-btn-home' -->
+                        <a href="#" class="btn-home b1">Équipement</a><!-- 'btn-acceuil b1' -->
+                        <a href="#" class="btn-home b2">Contact</a><!-- 'btn-acceuil b2' -->
+                    </div>
+                    
+                </div>
+                <div class="home__right-bloc"></div><!-- 'bloc-droit-acceuil' -->
+            </div>
+        </section>
+
+        <!-- Section 1 : INFOS -->
+        <section id="info">
+            <h2 class="info-title">SE (RE)PRENDRE EN MAIN</h2><!-- titre-section-info -->
+            <div class="info-section"><!-- Section-info -->
+
+                <div class="info-section__card"><!-- carte-info -->
+                    <div class="info-section__card__img-container"><!-- container-photo-info -->
+                        <img src="assets/img-info-1.jpg" alt="femme portant une corde lourde">
+                    </div>
+                    <h3>Faire parti d'un groupe</h3><!-- H2 -->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Ullam facilis quis sit pariatur sequi vitae!
+                    </p>
+                    <!-- decoration -->
+                    <img src="assets/points.png" alt="motif de points noirs sur fond blanc" class="info-section__card__decoration">
+                </div>
+
+                <div class="info-section__card"><!-- carte-info -->
+                    <div class="info-section__card__img-container"><!-- container-photo-info -->
+                        <img src="assets/img-info-2.jpg" alt="Homme montrant ses abdominaux très musclés">
+                    </div>
+                    <h3>Atteindre ses objectifs</h3><!-- H2 -->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Ullam facilis quis sit pariatur sequi vitae!
+                    </p>
+                </div>
+
+
+                <div class="info-section__card"><!-- carte-info -->
+                    <div class="info-section__card__img-container"><!-- container-photo-info -->
+                        <img src="assets/img-info-3.jpg" alt="cage à squat">
+                    </div>
+                    <h3>Exploser ses limites</h3><!-- H2 -->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Ullam facilis quis sit pariatur sequi vitae!
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Section 2 : OFFER -->
+        <section id="offer">
+            <div class="offer" >
+
+                <div class="offer__choice">
+                    <h3>Nos Salles</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. 
+                        Consequuntur hic deserunt beatae.
+                    </p>
+                    <button class="offer__choice__btn" type="button">Voir les Prix</button>
+                </div>
+
+                <div class="offer__choice">
+                    <h3>Cross Fit</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. 
+                        Consequuntur hic deserunt beatae.
+                    </p>
+                    <button class="offer__choice__btn" type="button">Voir les Prix</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 3 : EQUIPMENT -->
+
+        <section>
+            <div class="equipment" id="equipment">
+
+                <h2 class="equipment__title">Les équipements</h2>
+
+                <div class="equipment__equipments">
+
+                    <button type="button" data-index="1" class="equipment__equipments__btn"></button>
+                    <button type="button" data-index="2" class="equipment__equipments__btn"></button>
+                    <button type="button" data-index="3" class="equipment__equipments__btn"></button>
+                    <button type="button" data-index="4" class="equipment__equipments__btn"></button>
+                    <button type="button" data-index="5" class="equipment__equipments__btn"></button>
+                    <button type="button" data-index="6" class="equipment__equipments__btn"></button>
+                    <button type="button" data-index="7" class="equipment__equipments__btn"></button>
+                    <button type="button" data-index="8" class="equipment__equipments__btn"></button>
+                    <button type="button" data-index="9" class="equipment__equipments__btn"></button>
+                
+                </div>
+
+                <div class="modal-bloc">
+                    <div class="modal-bloc__img-container">
+                        <img src="assets/img1-equip.jpg" alt="Matériel de la salle de sport">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 : PARALLAX -->
+
+        <section class="parallax">
+            <p class="parallax__txt">COURAGE.</p>
+        </section>
+
+        <!-- Section 5 : Prices -->
+
+        <section id="prices">
+
+            <h2 class="prices-title">TARIFS</h2>
+
+            <div class="prices">
+                <div class="prices__card">
+
+                    <h3>BASIQUE</h3>
+                    <p class="prices__card__price"><span>20</span>/mois</p>
+
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        Salle Libre
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        24h/24
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/cross.svg" alt="option non cochée" class="prices__card__info__emoji">
+                        Coach
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/cross.svg" alt="option non cochée" class="prices__card__info__emoji">
+                        CrossFit
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/cross.svg" alt="option non cochée" class="prices__card__info__emoji">
+                        Massage
+                    </p>
+                </div>
+
+                <div class="prices__card">
+
+                    <h3>COMPLET</h3>
+                    <p class="prices__card__price"><span>40</span>/mois</p>
+
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        Salle Libre
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        24h/24
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        Coach
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        CrossFit
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/cross.svg" alt="option non cochée" class="prices__card__info__emoji">
+                        Massage
+                    </p>
+                </div>
+
+                <div class="prices__card">
+
+                    <h3>PRO</h3>
+                    <p class="prices__card__price"><span>60</span>/mois</p>
+
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        Salle Libre
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        24h/24
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        Coach
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        CrossFit
+                    </p>
+                    <p class="prices__card__info">
+                        <img src="assets/check.svg" alt="option cochée" class="prices__card__info__emoji">
+                        Massage
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6 : Contact -->
+        <section id="contact">
+            <h2 class="contact-title">Contactez nous !</h2>
+            <form>
+
+                <label for="first name">PRENOM</label>
+                <input type="text" id="first name">
+
+                <label for="last name">NOM</label>
+                <input type="text" id="last name">
+
+                <label for="message">MESSAGE</label>
+                <textarea id="message"></textarea>
+
+                <button class="form-btn" type="submit">Envoyer</button>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Tous droits réservés ©</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
