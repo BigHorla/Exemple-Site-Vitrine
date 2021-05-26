@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Roboto', Helvetica, sans-serif;
     background-color: #f1f1f1;
@@ -404,6 +407,20 @@ nav{
     text-align: center;
     padding: 50px 0; 
 }
+.glow-effect {
+    position: relative;
+    height: 50px;
+    width: 900px;
+    transform: rotate(-35deg);
+    left: 100px;
+    top: -120px;
+    opacity: 0.7;
+    transition-duration: 0s;
+    background: white;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, 
+                                    rgba(255, 255, 255, 0.745833) 50%, 
+                                    rgba(255, 255, 255, 0) 100%);
+  }
 .prices{
     background: #f1f1f1;
     display: flex;
@@ -421,6 +438,8 @@ nav{
         color: #f1f1f1;
         margin: 20px 10px;
         border-radius: 5px;
+        overflow: hidden;
+        transition-duration: 0.2s;
         h3{
             text-align: center;
             font-size: 45px;
@@ -428,6 +447,19 @@ nav{
             font-family: Montserra, Arial, Helvetica, sans-serif;
             position: relative;
         }
+        &:hover{           
+            transform: scale(1.03);
+            transition-duration: 0.2s;
+        }
+        &:hover .glow-effect {
+            /*  bottom: 500px;
+                  left: -230px; */
+            transform: translate(-100%, -300px) rotate(-45deg) scaleY(4);
+            transition-duration: 0.5s;
+            
+        }
+
+        
         &__price{
             text-align: center;
             font-size: 30px;
@@ -461,6 +493,7 @@ nav{
         }
     }
 }
+
 
 /* 
 -------------------------------------------------------Section 6 - CONTACT */
